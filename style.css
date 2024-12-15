@@ -3,6 +3,8 @@
     list-style: none;
     text-decoration: none;
     font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 body {
@@ -17,6 +19,10 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+hr {
+    margin-bottom: 10px;
 }
 
 .hero-text {
@@ -36,11 +42,19 @@ body {
     max-width: 900px;
     margin: 0 auto;
     height: 40vh;
+    margin-bottom: 25px;
 }
 
+.about h1 {
+    margin-bottom: 25px;
+}
 .skills {
     max-width: 900px;
     margin: 0 auto;
+}
+
+.skills h1 {
+    margin-bottom: 25px;
 }
 
 .stack {
@@ -87,25 +101,31 @@ body {
 
 footer {
     margin: 0;
-
     width: 100%;
     height: 30vh;
     background-color: #131010;
     color: #fff;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
+    text-align: center;
 }
 
 footer ul {
     display: flex;
     gap: 25px;
-    
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
 footer ul a {
     color: #fff;
+}
+
+small {
+    margin: 5px auto;
 }
 
 @media (max-width: 450px) {
